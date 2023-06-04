@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/upper_bg"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="#fffa9e"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Здравствуй, дорогой друг!"
+            android:textSize="28dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Если ты умеешь или хочешь научиться играть на гитаре, то ты по адресу! В нашем приложении ты найдешь тексты и аккорды для популярных песен, а также все основные аккорды и правильные расстановки пальцев на них. Добро пожаловать!"
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fon_osnova"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="24dp"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fon_2"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="24dp"
+        tools:ignore="DuplicateIds" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectAkkords"
+        tools:targetApi="31">
+        <activity
+            android:name=".Accords_h_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_f_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_e_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_d_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_c_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_a_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_h_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_g_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_f_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_e_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_d_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_c_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_a_0"
+            android:exported="false" />
+        <activity
+            android:name=".Song_List_1"
+            android:exported="false" />
+        <activity
+            android:name=".Settings_0"
+            android:exported="false" />
+        <activity
+            android:name=".Accords_0"
+            android:exported="false" />
+        <activity
+            android:name=".Playlists_0"
+            android:exported="false" />
+        <activity
+            android:name=".Favorites_0"
+            android:exported="false" />
+        <activity
+            android:name=".Song_List_0"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
